@@ -9,6 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.9.0
+  shared_preferences: ^2.0.9
+  geocoding: ^2.1.0
+  geolocator: ^13.0.1
+  http: ^0.13.4
+  lucide_icons: ^0.257.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +24,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Geist
+      fonts:
+        - asset: fonts/Geist-Regular.ttf
+        - asset: fonts/Geist-Bold.ttf
+          weight: 700
